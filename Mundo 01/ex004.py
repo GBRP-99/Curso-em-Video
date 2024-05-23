@@ -1,0 +1,6 @@
+x = input("Digite algo:")
+print(f"o tipo primitivo é: {type(x)}")
+print(f"É alfanumeiro? {x.isalnum()}")
+print(f"É numerico apenas? {x.isnumeric()}")
+print(f"É texto apenas? {x.isalpha()}")
+print(f"É Computavél? {x.isascii()}")
