@@ -10,8 +10,9 @@ shuffle(lista)
 print("A ordem de apresentação é:")
 for indice, aluno in enumerate(lista, start=1):
     print(f"{indice}. {aluno}")
-    # neste modelo "indice" está ligado ao "enumerate", que vai puxar o "start=1" e começar a contagem em 1
+    # "indice" está ligado ao "start=1" e começa a contagem em 1
     # "aluno é onde será armazenado o objeto que estiver na lista que já foi embaralhada"
+    # "enumerate" vai fazer a lista com um quebra após cada item da lista
     # "indice" vai mostrar um numero, enquanto "aluno" mostra o objeto da lista (a1, a2, a3, a4)
 
 # print(f"A ordem de apresentação é {lista}")
