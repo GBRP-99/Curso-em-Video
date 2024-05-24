@@ -1,3 +1,5 @@
+# Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
+
 x = int(input("digite um número inteiro:"))
 print('-' * 15)
 print(f"{x} X {1:2} = {x}")
