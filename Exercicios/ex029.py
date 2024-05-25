@@ -5,7 +5,7 @@
 velo = int(input("A que velocidade(km/h) estava o veiculo? "))
 acima = velo - 80
 if velo > 80:
-    print(f"Veiculo estava a {acima}km/r acima do limite!")
+    print(f"Veiculo estava a {acima}km/h acima do limite!")
     print(f"Receberá a multa de R${acima*7}")
 else:
     print("Velocidade permitida, não será penalizado.")
