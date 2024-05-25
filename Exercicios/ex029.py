@@ -7,5 +7,4 @@ acima = velo - 80
 if velo > 80:
     print(f"Veiculo estava a {acima}km/h acima do limite!")
     print(f"Receberá a multa de R${acima*7}")
-else:
-    print("Velocidade permitida, não será penalizado.")
+print("Dirija com segurança e boa viagem!")
